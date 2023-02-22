@@ -1,0 +1,59 @@
+@media (max-width: 1024px) {
+  .card-box {
+    margin-bottom: 35px;
+  }
+
+  .card-box .illustration-mockups img {
+    width: 480px;
+  }
+
+  .card-box .register-painel h1 {
+    font-size: 2.5rem;
+  }
+
+  .card-box .register-painel p {
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    background: url("../images/bg-mobile.svg") top center no-repeat;
+    background-size: contain;
+  }
+
+  .card-box {
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+  }
+
+  .card-box .illustration-mockups img {
+    width: 300px;
+  }
+
+  .card-box .register-painel {
+    text-align: center;
+  }
+
+  /* .card-box .register-painel h1 {
+    font-size: 2.5rem;
+  } */
+
+  /* .card-box .register-painel p {
+    font-size: 2rem;
+    line-height: 55px;
+  } */
+
+  .footer {
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
